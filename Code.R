@@ -3,8 +3,8 @@
 library(Rqc)
 library(ShortRead)
 
-a <- readFastq(paste0(folder, "/a.fastq"))
-b <- readFastq(paste0(folder, "/b.fastq"))
+a <- readFastq(paste0("a.fastq"))
+b <- readFastq(paste0("b.fastq"))
 
 path_to_fastq_files <- "C:/Users/00090473/RWD"  # change to your WD
 
